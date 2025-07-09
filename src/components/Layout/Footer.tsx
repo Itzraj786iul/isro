@@ -29,17 +29,36 @@ export const Footer: React.FC = () => {
           </div>
           
           <div>
-            <h4 className="text-sm font-semibold mb-4 text-orange-400">Connect</h4>
-            <div className="flex space-x-4">
-              <Github className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transition-colors" />
-              <Globe className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transition-colors" />
-              <Mail className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transition-colors" />
-            </div>
-          </div>
+  <h4 className="text-sm font-semibold mb-4 text-orange-400">Connect</h4>
+  <div className="flex space-x-4">
+    <a
+      href="https://github.com/Itzraj786iul/isro"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Github className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transition-colors" />
+    </a>
+    <a
+      href="https://your-live-site-url.com"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Globe className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transition-colors" />
+    </a>
+    <a
+      href="mailto:ransari078.btech2023@mme.nitrr.ac.in"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Mail className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transition-colors" />
+    </a>
+  </div>
+</div>
+
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-6 text-center text-sm text-gray-400">
-          <p>&copy; 2024 AgniRakshak. Made with ❤️ for Bhartiya Antariksh Hackathon. Supporting Atmanirbhar Bharat.</p>
+          <p>&copy; 2025 AgniRakshak. Made with ❤️ for Bhartiya Antariksh Hackathon. Supporting Atmanirbhar Bharat.</p>
         </div>
       </div>
     </footer>

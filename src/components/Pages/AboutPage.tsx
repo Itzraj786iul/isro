@@ -121,38 +121,56 @@ export const AboutPage: React.FC = () => {
 
         {/* Team */}
         <div className="bg-white rounded-xl shadow-lg p-8 mb-12">
-          <div className="text-center mb-8">
-            <Users className="w-12 h-12 text-blue-600 mx-auto mb-4" />
-            <h2 className="text-2xl font-bold text-gray-900">Development Team</h2>
-            <p className="text-gray-600">Passionate innovators working towards Atmanirbhar Bharat</p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Users className="w-8 h-8 text-blue-600" />
-              </div>
-              <h3 className="font-bold text-gray-900">AI/ML Engineers</h3>
-              <p className="text-sm text-gray-600">Model development and optimization</p>
-            </div>
-            
-            <div className="text-center">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Globe className="w-8 h-8 text-green-600" />
-              </div>
-              <h3 className="font-bold text-gray-900">GIS Specialists</h3>
-              <p className="text-sm text-gray-600">Geospatial analysis and visualization</p>
-            </div>
-            
-            <div className="text-center">
-              <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Shield className="w-8 h-8 text-orange-600" />
-              </div>
-              <h3 className="font-bold text-gray-900">Full-Stack Developers</h3>
-              <p className="text-sm text-gray-600">Platform development and deployment</p>
-            </div>
-          </div>
-        </div>
+  <div className="text-center mb-8">
+    <Users className="w-12 h-12 text-blue-600 mx-auto mb-4" />
+    <h2 className="text-2xl font-bold text-gray-900">Development Team</h2>
+    <p className="text-gray-600">Passionate innovators working towards Atmanirbhar Bharat</p>
+  </div>
+
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+    {/* Raziullah Ansari */}
+    <div className="text-center">
+      <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+        <Award className="w-8 h-8 text-purple-600" />
+      </div>
+      <h3 className="font-bold text-gray-900">Raziullah Ansari</h3>
+      <p className="text-sm text-gray-600">Team Lead | AI/ML & Full-Stack</p>
+      <p className="text-sm text-blue-500">ransari078.btech2023@mme.nitrr.ac.in</p>
+    </div>
+
+    {/* Saptadeepa Pal */}
+    <div className="text-center">
+      <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+        <Cpu className="w-8 h-8 text-blue-600" />
+      </div>
+      <h3 className="font-bold text-gray-900">Saptadeepa Pal</h3>
+      <p className="text-sm text-gray-600">AI/ML Engineer</p>
+      <p className="text-sm text-blue-500">saptadeepapal@gmail.com</p>
+    </div>
+
+    {/* Abdullah Shaikh */}
+    <div className="text-center">
+      <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+        <Cpu className="w-8 h-8 text-green-600" />
+      </div>
+      <h3 className="font-bold text-gray-900">Abdullah Shaikh</h3>
+      <p className="text-sm text-gray-600">Full-Stack & ML Engineer</p>
+      <p className="text-sm text-blue-500">abdullahsknitrr@gmail.com</p>
+    </div>
+
+    {/* Milind Sen */}
+    <div className="text-center">
+      <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
+        <Globe className="w-8 h-8 text-orange-600" />
+      </div>
+      <h3 className="font-bold text-gray-900">Milind Sen</h3>
+      <p className="text-sm text-gray-600">Research & GIS Specialist</p>
+      <p className="text-sm text-blue-500">mixind2303@gmail.com</p>
+    </div>
+  </div>
+</div>
+
+
 
         {/* Hackathon Connection */}
         <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-xl p-8 border border-orange-200">
